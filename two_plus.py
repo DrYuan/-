@@ -1,5 +1,5 @@
-# A = input("请输入一组数字,用空格分隔")
-# L = list(map(int, A.split()))
+A = input("请输入一组数字,用空格分隔")
+L = list(map(int, A.split()))
 MAX = []
 def max_list(l):
     max = l[0]
@@ -17,4 +17,4 @@ def Max(l):
         max_list(l)
         l.append(l.pop(0))
     return max(MAX)
-# print(Max(L))
+print(Max(L))
